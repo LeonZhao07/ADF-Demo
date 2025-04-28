@@ -1,0 +1,9 @@
+{
+	"name": "leonzhao-df-testing",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3a10ff8f-7ca4-4517-a45a-777d62fbfbf9",
+		"tenantId": "7f6bcd3a-7ec3-4e56-b0aa-c1b641c97749"
+	}
+}
