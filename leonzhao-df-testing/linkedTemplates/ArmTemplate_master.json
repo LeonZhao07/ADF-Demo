@@ -11,10 +11,6 @@
 			"type": "secureString",
 			"metadata": "“AzureSql_ADF”的“password”的安全字符串"
 		},
-		"AzureTestingBlobStorage_connectionString": {
-			"type": "secureString",
-			"metadata": "“AzureTestingBlobStorage”的“connectionString”的安全字符串"
-		},
 		"Blob_Testing_connectionString": {
 			"type": "secureString",
 			"metadata": "“Blob_Testing”的“connectionString”的安全字符串"
@@ -72,9 +68,6 @@
 					},
 					"AzureSql_ADF_password": {
 						"value": "[parameters('AzureSql_ADF_password')]"
-					},
-					"AzureTestingBlobStorage_connectionString": {
-						"value": "[parameters('AzureTestingBlobStorage_connectionString')]"
 					},
 					"Blob_Testing_connectionString": {
 						"value": "[parameters('Blob_Testing_connectionString')]"

@@ -11,10 +11,6 @@
 			"type": "secureString",
 			"metadata": "“AzureSql_ADF”的“password”的安全字符串"
 		},
-		"AzureTestingBlobStorage_connectionString": {
-			"type": "secureString",
-			"metadata": "“AzureTestingBlobStorage”的“connectionString”的安全字符串"
-		},
 		"Blob_Testing_connectionString": {
 			"type": "secureString",
 			"metadata": "“Blob_Testing”的“connectionString”的安全字符串"
@@ -66,19 +62,6 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureSql_ADF_password')]"
 					}
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/AzureTestingBlobStorage')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "AzureBlobStorage",
-				"typeProperties": {
-					"connectionString": "[parameters('AzureTestingBlobStorage_connectionString')]"
 				}
 			},
 			"dependsOn": []

@@ -8,9 +8,6 @@
 		"AzureSql_ADF_password": {
 			"value": ""
 		},
-		"AzureTestingBlobStorage_connectionString": {
-			"value": ""
-		},
 		"Blob_Testing_connectionString": {
 			"value": ""
 		},
