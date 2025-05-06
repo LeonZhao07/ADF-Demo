@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "leonzhao-df-testing"
+		},
+		"AzureSql_ADF_password": {
+			"value": ""
+		},
+		"AzureTestingBlobStorage_connectionString": {
+			"value": ""
+		},
+		"Blob_Testing_connectionString": {
+			"value": ""
+		},
+		"Sftp_password": {
+			"value": ""
+		},
+		"AzureSql_ADF_properties_typeProperties_server": {
+			"value": "leonzhaotesting.database.windows.net"
+		},
+		"AzureSql_ADF_properties_typeProperties_database": {
+			"value": "ADF"
+		},
+		"AzureSql_ADF_properties_typeProperties_userName": {
+			"value": "leonadmin"
+		},
+		"Sftp_properties_typeProperties_host": {
+			"value": "leontestingstorage.blob.core.windows.net"
+		},
+		"Sftp_properties_typeProperties_userName": {
+			"value": "leontestingstorage.leon"
+		}
+	}
+}
